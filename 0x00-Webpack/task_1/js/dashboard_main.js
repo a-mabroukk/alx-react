@@ -17,4 +17,4 @@ function updateCounter() {
 }
 
 // Use lodash debounce to handle button click
-$('#start-button').on('click', _.debounce(updateCounter, 300));
+$('#start-button').on('click', _.debounce(updateCounter, 500));
