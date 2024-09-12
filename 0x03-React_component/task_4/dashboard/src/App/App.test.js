@@ -1,10 +1,10 @@
 /** @jest-environment jsdom */
 import React from 'react';
+import { shallow, mount } from 'enzyme';
 import App from './App';
 import Login from '../Login/Login';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
-import { shallow, mount } from 'enzyme';
 
 describe('App tests', () => {
   it('renders without crashing', () => {
